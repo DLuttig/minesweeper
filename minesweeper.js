@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', startGame)
 // Define your `board` object here!
  var board = {cells:[]};
 
- let tiles = 3
+ let tiles = 6
 
  for (var x = 0; x < tiles; ++x){
   for(var y = 0; y < tiles; ++y){
